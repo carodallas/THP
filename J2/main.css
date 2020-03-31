@@ -1,0 +1,145 @@
+
+body{
+  font-family: "arial",sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+.gmail{
+  display:flex;
+  justify-content:flex-end;
+  align-items: center;
+  height:40px;
+  font-size: 13px;
+}
+
+.gmail > *{
+  padding:8px;
+}
+
+.photo{
+  border-radius: 30px;
+  height:30px;
+}
+
+.menu{
+  height:30px;
+}
+
+.content{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  height:600px;
+}
+
+.logo{
+  margin-top: 150px;
+  margin-bottom: 20px;
+}
+.recherche{
+  margin-top: 1em;
+  height:45px;
+  padding:0;
+  border:1px #E8E8E8 solid;
+  border-radius: 20px;
+  width:550px;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.recherche:hover{
+  box-shadow: 0px 2px 10px #E8E8E8;
+}
+
+input{
+  border:none;
+  color:transparent;
+  height:40px;
+  width:400px;
+  flex-grow:8
+}
+
+input:hover{
+  border:none;
+  color:#FFFFFF;
+}
+
+i,.vocal{
+  flex-grow:1;
+}
+
+.vocal{
+  margin-right: 5px;
+  border-radius: 20px;
+}
+.raccourcis{
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  width:330px;
+  margin-top:20px;
+}
+.bouton{
+  background-color: #E8E8E8;
+  height:35px;
+  width:150px;
+  border:0;
+  color:#686868;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.bouton:hover{
+  border:1px solid #C2C2C2;
+}
+
+.covid{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:45px;
+  width:400px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.english{
+  margin-top: 50px;
+  font-size: 12px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F1F1;
+  padding: -10px;
+  color:#686868;
+}
+
+.france{
+  display: flex;
+  align-items: flex-start;
+  border-top:1px solid darkgrey;
+  height:40px;
+}
+
+.footerbis, .infos, .legal{
+  display:flex;
+}
+
+.footerbis{
+  justify-content: space-between;
+  border-top:1px solid #E4E4E4;
+  border-bottom:1px solid #E4E4E4;
+    height:40px;
+}
+
+.footerbis p, .france p {
+  padding-left: 8px;
+  padding-right: 8px;
+}
